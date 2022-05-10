@@ -57,7 +57,7 @@ public class CustomListeners implements ITestListener {
         reports = new ExtentReports();
         reports.attachReporter(reporter);
 
-        reports.setSystemInfo("Nidhi", System.getProperty("user.name"));
+        reports.setSystemInfo("Pinakin", System.getProperty("user.name"));
         reports.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
         reports.setSystemInfo("Machine", "Windows 10" + "64 Bit");
         reports.setSystemInfo("Selenium", "3.141.59");
